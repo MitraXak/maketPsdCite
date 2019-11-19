@@ -1,0 +1,225 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-ExtraLight.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+  font-style: Montserrat;
+  font-size: 20pt;
+}
+a{
+    font-family: Raleway;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+li{
+    list-style-type: none;
+}
+.getStart{
+    padding: 10px 50px 10px 50px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+}
+/* position blocks */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1, h2, h3{
+    font-family: Raleway;
+}
+.mainContent{
+    max-width: 1920px;
+}
+header{
+    position: relative;
+    color: white;
+    height: 1050px;
+}
+header img{
+    position: absolute;
+}
+.mainMenu{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu li{
+    margin: 10px;
+}
+.title a{
+    font-weight: 400;
+    letter-spacing: -1.36px;
+}
+.menu li a{
+    font-size: 16pt;
+}
+.slidebar{
+    font-family: Montserrat;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+}
+.services{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services div{
+    float: left;
+    width: 25%;
+}
+
+.line{
+    margin-left: 180px;
+    width: 70px;
+    height: 3px;
+    background-color: #c7b299;
+}
+.idea{
+    background-color: #fbfaf8;
+    text-align: center;
+    height: 585px;
+}
+.ideaContent{
+    display: block;
+}
+.ideaBg{
+    display: block;
+    padding: 5%;
+}
+.ideaImgLeft{
+    width: 770px;
+    height: 400px;
+}
+.ideaImgCenter{
+    position: relative;
+    bottom: 485px;
+    width: 770px;
+    height: 482px;
+}
+.ideaImgRight{
+    width: 770px;
+    height: 400px;
+}
+.textBoxes{
+    margin: 60px;
+    height: 150px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+.menuMyProjects{
+    text-align: center;
+}
+.mainProject{
+    padding: 5% 20% 0 20%;
+    display: grid;
+    grid-template-areas: "p1 p1 p1 p2 p2 p2 p3 p3 p3"
+                         "p4 p4 p4 p5 p5 p5 p6 p6 p6";
+}
+.project1{
+    grid-area: p1;
+}
+.project2{
+    grid-area: p2;
+}
+.project3{
+    grid-area: p3;
+}
+.project4{
+    grid-area: p4;
+}
+.project5{
+    grid-area: p5;
+}
+.project6{
+    grid-area: p6;
+}
+.mainProject div{
+    display: block;
+}
+.mainProject img{
+    width: 100%;
+}
+.mainProject .txt{
+    margin-top: -10px;
+    text-align: center;
+    padding: 5px 10px 25px 10px;
+    width: 370px;
+    height: 100px;
+    background-color: #fbfaf8;
+}
+.project2 .txt{
+    background-color: #362f2d;
+    color: #c7b299;
+}
+.project2 .txt h1{
+    color: white;
+}
+.mainProject .txt h2{
+    font-family: Raleway;
+}
+.mobile{
+    background-color: #fbfaf8;
+    display: flex;
+    justify-content: center;
+}
+.posts{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.blockTextMobile{
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 60%;
+}
+.textRightMobile{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.textRightMobile ul{
+  text-align: left;
+  font-size: 20pt;
+}
+.textRightMobile ul li{
+  list-style-type: disc;
+  line-height: 50px;
+}
+.recentPosts{
+  text-align: center;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.more a{
+    padding: 10px 20px 10px 20px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+}
